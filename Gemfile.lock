@@ -219,7 +219,7 @@ DEPENDENCIES
   byebug
   capybara (>= 2.15)
   jbuilder (~> 2.7)
-  jquery-rails
+  jquery-rails (~> 4.4.0)
   listen (~> 3.2)
   pg
   puma (~> 4.1)
