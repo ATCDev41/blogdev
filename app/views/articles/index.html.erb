@@ -17,6 +17,7 @@
     <td><%= article.description %></td>
     <td><%= link_to "Modifier", edit_article_path(article) %></td>
     <td><%= link_to "Afficher", article_path(article) %></td>
+    <td><%= link_to "Supprimer", article_path(article), method: :delete %></td>
   </tr>
 
   <% end %>
