@@ -1,7 +1,6 @@
-<h1>
-  <%= @article.title %>
-</h1>
+<h1>  <%= @article.title %> </h1>
 
-<p>
-  <%= @article.description %>
-</p>
+<p>  <%= @article.description %> </p>
+
+<%= link_to "Retour", articles_path %>
+<%= link_to "Modifier", edit_article_path(@article) %>
